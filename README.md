@@ -4,24 +4,21 @@
 
 I'm currently working through the Learn to Cloud challenge, focusing on mastering Linux and Bash fundamentals. This repository tracks my progress and contains my solutions and notes.
 
-### Current Topic: Version Control
+### Topic 1: Linux
+- Read the book *Linux Basics for Hackers* until Chapter 9.
+- Did few challengs inside the book.
 
-I'm learning about version control systems, particularly Git. This includes:
+### Topic 2: Version Control
+- I already had previous experience with this, so I just revised the concepts.
 
-- Understanding the basics of Git
-- Creating and cloning repositories
-- Making commits
-- Pushing changes to remote repositories
-- Working with branches
+
+#### Topic 3: Infrastructure as Code
+- Learned the basics and focused on Terraform.
+- Did a crash course from YouTube.
 
 ### Next Steps
 
-After completing the Version Control section, I'll be moving on to other Linux and Bash topics, including:
-
-- File manipulation
-- Text processing
-- Bash scripting
-- System administration basics
+After completing the current topics, I will tackle the Linux Command Line CTF Challenge. You can view the challenge in the `aws` folder.
 
 ## Resources
 
