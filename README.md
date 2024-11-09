@@ -12,7 +12,7 @@ I'm currently working through the Learn to Cloud challenge, focusing on masterin
 - I already had previous experience with this, so I just revised the concepts.
 
 
-#### Topic 3: Infrastructure as Code
+### Topic 3: Infrastructure as Code
 - Learned the basics and focused on Terraform.
 - Did a crash course from YouTube.
 
