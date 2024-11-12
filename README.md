@@ -32,7 +32,7 @@ ls -a
 
 Files starting with a `.` are considered hidden. This helped me locate the file.
 
-![Answer of the first challenge](./images/challenges/challenge_1_answer.png)
+![Answer of the first challenge](./aws/images/challenges/challenge_1_answer.png)
 
 #### Challenge 2: Locate the file with the word "secret" in its name anywhere in the /home/ec2-user directory.
 
@@ -44,7 +44,7 @@ grep -r "secret" /home/ec2-user
 
 - `-r` flag makes `grep` search recursively through the directory and its subdirectories.
 
-![Answer of the second challenge](./images/challenges/challenge_2_answer.png)
+![Answer of the second challenge](./aws/images/challenges/challenge_2_answer.png)
 
 #### Challenge 3: Find the largest file in the /var/log directory and retrieve the flag from it.
 
@@ -70,7 +70,7 @@ To retrieve the flag:
 grep -r "flag" ./journal
 ```
 
-![Answer of the third challenge](./images/challenges/challenge_3_answer.png)
+![Answer of the third challenge](./aws/images/challenges/challenge_3_answer.png)
 
 #### Challenge 4: Identify the user with UID 1001 and find the flag in their home directory.
 
@@ -88,7 +88,7 @@ cd /home/ctf_user
 cat flag.txt
 ```
 
-![Answer of the fourth challenge](./images/challenges/challenge_4_answer.png)
+![Answer of the fourth challenge](./aws/images/challenges/challenge_4_answer.png)
 
 #### Challenge 5: Locate the file owned by root with permissions 777 and read its contents.
 
@@ -102,8 +102,8 @@ sudo find / -type f -perm 777 -exec ls -l {} +
 - `-perm 777`: Search for files with permissions `777`.
 - `-exec ls -l {}`: Lists detailed information about the found files.
 
-![Answer of the fifth challenge](./images/challenges/challenge_5_answer.png)
-![Answer of the fifth challenge](./images/challenges/challenge_5_final_ans.png)
+![Answer of the fifth challenge](./aws/images/challenges/challenge_5_answer.png)
+![Answer of the fifth challenge](./aws/images/challenges/challenge_5_final_ans.png)
 
 #### Challenge 6: Find the process running on port 8080 and retrieve the flag from its command.
 
@@ -119,7 +119,7 @@ cat encoded_flag.txt | base64 -d
 
 - `-d` flag is used for decoding.
 
-![Answer of the seventh challenge](./images/challenges/challenge_7_answer.png)
+![Answer of the seventh challenge](./aws/images/challenges/challenge_7_answer.png)
 
 ## Resources
 
